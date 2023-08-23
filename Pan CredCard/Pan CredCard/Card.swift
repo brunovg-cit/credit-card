@@ -14,4 +14,14 @@ struct Card: Codable {
     let number: String?
     let codSec: String?
     let image: String?
+    
+    func getSafeCardNumber() -> String? {
+        guard let number = number else { return nil }
+        
+        let removedPortion = String(repeating: "**** ", count: 3)
+        let lastFourDigits = String(number.suffix(4))
+        let safeCardNumber = removedPortion + lastFourDigits
+        
+        return safeCardNumber
+    }
 }

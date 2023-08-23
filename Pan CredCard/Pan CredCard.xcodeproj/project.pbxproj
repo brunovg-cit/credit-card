@@ -17,6 +17,7 @@
 		BED47F872A9646BB0092E31B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F862A9646BB0092E31B /* Card.swift */; };
 		BED47F892A9646C60092E31B /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F882A9646C60092E31B /* CardData.swift */; };
 		BED47F8B2A96470B0092E31B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BED47F8A2A96470B0092E31B /* data.json */; };
+		BED47F8D2A964CEC0092E31B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F8C2A964CEC0092E31B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BED47F862A9646BB0092E31B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		BED47F882A9646C60092E31B /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		BED47F8A2A96470B0092E31B /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		BED47F8C2A964CEC0092E31B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				BED47F862A9646BB0092E31B /* Card.swift */,
 				BED47F882A9646C60092E31B /* CardData.swift */,
 				BED47F8A2A96470B0092E31B /* data.json */,
+				BED47F8C2A964CEC0092E31B /* CardView.swift */,
 			);
 			path = "Pan CredCard";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				BED47F892A9646C60092E31B /* CardData.swift in Sources */,
 				BED47F872A9646BB0092E31B /* Card.swift in Sources */,
 				BED47F5D2A96464F0092E31B /* Pan_CredCardApp.swift in Sources */,
+				BED47F8D2A964CEC0092E31B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
