@@ -6,14 +6,19 @@
 //
 
 import SwiftUI
+import Security
 
 struct ContentView: View {
-    let cards = CardData().retrieveDataFromJSON() ?? [:]
+    let cardData = CardData()
+    
     var body: some View {
+        let cards = cardData.retrieveDataFromJSON() ?? [:]
+        
         ScrollView {
             ForEach(cards.keys.sorted(), id: \.self) { key in
                 if let card = cards[key] {
-                    CardView(card: card)
+                    CardView(card: card, cardName: key)
+                    Divider()
                 }
             }
         }

@@ -16,12 +16,16 @@ struct Card: Codable {
     let image: String?
     
     func getSafeCardNumber() -> String? {
-        guard let number = number else { return nil }
-        
-        let removedPortion = String(repeating: "**** ", count: 3)
-        let lastFourDigits = String(number.suffix(4))
-        let safeCardNumber = removedPortion + lastFourDigits
+        let maskedPortion = String(repeating: "**** ", count: 3)
+        let safeCardNumber = maskedPortion + lastFourDigits()
         
         return safeCardNumber
+    }
+    
+    func lastFourDigits() -> String {
+        if let number = number {
+            return String(number.suffix(4))
+        }
+        return ""
     }
 }
