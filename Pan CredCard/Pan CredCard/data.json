@@ -1,0 +1,40 @@
+{
+    "American Express": {
+        "alias": "Amex",
+        "credit": true,
+        "debit": true,
+        "number": "5169 8308 7140 3628",
+        "codSec": "2051",
+        "image": ""
+    },
+    "Diners Club": {
+        "alias": "Diners",
+        "credit": true,
+        "debit": true,
+        "number": "5309 5085 3492 3791",
+        "codSec": "572",
+        "image": ""
+    },
+    "Elo": {
+        "credit": true,
+        "debit": true,
+        "number": "4485 5622 0893 3452",
+        "codSec": "156",
+        "image": ""
+    },
+    "MasterCard": {
+        "alias": "Master",
+        "credit": true,
+        "debit": true,
+        "number": "6062 8203 5096 2273",
+        "codSec": "115",
+        "image": ""
+    },
+    "Visa": {
+        "credit": true,
+        "debit": true,
+        "number": "4539 3285 2509 9138",
+        "codSec": "518",
+        "image": ""
+    }
+}

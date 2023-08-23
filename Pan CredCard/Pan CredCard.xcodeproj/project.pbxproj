@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED47F5D2A96464F0092E31B /* Pan_CredCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F5C2A96464F0092E31B /* Pan_CredCardApp.swift */; };
+		BED47F5F2A96464F0092E31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F5E2A96464F0092E31B /* ContentView.swift */; };
+		BED47F612A9646510092E31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED47F602A9646510092E31B /* Assets.xcassets */; };
+		BED47F642A9646510092E31B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED47F632A9646510092E31B /* Preview Assets.xcassets */; };
+		BED47F6E2A9646510092E31B /* Pan_CredCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F6D2A9646510092E31B /* Pan_CredCardTests.swift */; };
+		BED47F782A9646510092E31B /* Pan_CredCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F772A9646510092E31B /* Pan_CredCardUITests.swift */; };
+		BED47F7A2A9646510092E31B /* Pan_CredCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F792A9646510092E31B /* Pan_CredCardUITestsLaunchTests.swift */; };
+		BED47F872A9646BB0092E31B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F862A9646BB0092E31B /* Card.swift */; };
+		BED47F892A9646C60092E31B /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F882A9646C60092E31B /* CardData.swift */; };
+		BED47F8B2A96470B0092E31B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BED47F8A2A96470B0092E31B /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED47F6A2A9646510092E31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED47F512A96464F0092E31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED47F582A96464F0092E31B;
+			remoteInfo = "Pan CredCard";
+		};
+		BED47F742A9646510092E31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED47F512A96464F0092E31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED47F582A96464F0092E31B;
+			remoteInfo = "Pan CredCard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED47F592A96464F0092E31B /* Pan CredCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pan CredCard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED47F5C2A96464F0092E31B /* Pan_CredCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan_CredCardApp.swift; sourceTree = "<group>"; };
+		BED47F5E2A96464F0092E31B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BED47F602A9646510092E31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED47F632A9646510092E31B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BED47F692A9646510092E31B /* Pan CredCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pan CredCardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED47F6D2A9646510092E31B /* Pan_CredCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan_CredCardTests.swift; sourceTree = "<group>"; };
+		BED47F732A9646510092E31B /* Pan CredCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pan CredCardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED47F772A9646510092E31B /* Pan_CredCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan_CredCardUITests.swift; sourceTree = "<group>"; };
+		BED47F792A9646510092E31B /* Pan_CredCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan_CredCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BED47F862A9646BB0092E31B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BED47F882A9646C60092E31B /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		BED47F8A2A96470B0092E31B /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED47F562A96464F0092E31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F662A9646510092E31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F702A9646510092E31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED47F502A96464F0092E31B = {
+			isa = PBXGroup;
+			children = (
+				BED47F5B2A96464F0092E31B /* Pan CredCard */,
+				BED47F6C2A9646510092E31B /* Pan CredCardTests */,
+				BED47F762A9646510092E31B /* Pan CredCardUITests */,
+				BED47F5A2A96464F0092E31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED47F5A2A96464F0092E31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED47F592A96464F0092E31B /* Pan CredCard.app */,
+				BED47F692A9646510092E31B /* Pan CredCardTests.xctest */,
+				BED47F732A9646510092E31B /* Pan CredCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED47F5B2A96464F0092E31B /* Pan CredCard */ = {
+			isa = PBXGroup;
+			children = (
+				BED47F5C2A96464F0092E31B /* Pan_CredCardApp.swift */,
+				BED47F5E2A96464F0092E31B /* ContentView.swift */,
+				BED47F602A9646510092E31B /* Assets.xcassets */,
+				BED47F622A9646510092E31B /* Preview Content */,
+				BED47F862A9646BB0092E31B /* Card.swift */,
+				BED47F882A9646C60092E31B /* CardData.swift */,
+				BED47F8A2A96470B0092E31B /* data.json */,
+			);
+			path = "Pan CredCard";
+			sourceTree = "<group>";
+		};
+		BED47F622A9646510092E31B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BED47F632A9646510092E31B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BED47F6C2A9646510092E31B /* Pan CredCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED47F6D2A9646510092E31B /* Pan_CredCardTests.swift */,
+			);
+			path = "Pan CredCardTests";
+			sourceTree = "<group>";
+		};
+		BED47F762A9646510092E31B /* Pan CredCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BED47F772A9646510092E31B /* Pan_CredCardUITests.swift */,
+				BED47F792A9646510092E31B /* Pan_CredCardUITestsLaunchTests.swift */,
+			);
+			path = "Pan CredCardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED47F582A96464F0092E31B /* Pan CredCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED47F7D2A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCard" */;
+			buildPhases = (
+				BED47F552A96464F0092E31B /* Sources */,
+				BED47F562A96464F0092E31B /* Frameworks */,
+				BED47F572A96464F0092E31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pan CredCard";
+			productName = "Pan CredCard";
+			productReference = BED47F592A96464F0092E31B /* Pan CredCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED47F682A9646510092E31B /* Pan CredCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED47F802A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCardTests" */;
+			buildPhases = (
+				BED47F652A9646510092E31B /* Sources */,
+				BED47F662A9646510092E31B /* Frameworks */,
+				BED47F672A9646510092E31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED47F6B2A9646510092E31B /* PBXTargetDependency */,
+			);
+			name = "Pan CredCardTests";
+			productName = "Pan CredCardTests";
+			productReference = BED47F692A9646510092E31B /* Pan CredCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BED47F722A9646510092E31B /* Pan CredCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED47F832A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCardUITests" */;
+			buildPhases = (
+				BED47F6F2A9646510092E31B /* Sources */,
+				BED47F702A9646510092E31B /* Frameworks */,
+				BED47F712A9646510092E31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED47F752A9646510092E31B /* PBXTargetDependency */,
+			);
+			name = "Pan CredCardUITests";
+			productName = "Pan CredCardUITests";
+			productReference = BED47F732A9646510092E31B /* Pan CredCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED47F512A96464F0092E31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BED47F582A96464F0092E31B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BED47F682A9646510092E31B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BED47F582A96464F0092E31B;
+					};
+					BED47F722A9646510092E31B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BED47F582A96464F0092E31B;
+					};
+				};
+			};
+			buildConfigurationList = BED47F542A96464F0092E31B /* Build configuration list for PBXProject "Pan CredCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED47F502A96464F0092E31B;
+			productRefGroup = BED47F5A2A96464F0092E31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED47F582A96464F0092E31B /* Pan CredCard */,
+				BED47F682A9646510092E31B /* Pan CredCardTests */,
+				BED47F722A9646510092E31B /* Pan CredCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED47F572A96464F0092E31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED47F642A9646510092E31B /* Preview Assets.xcassets in Resources */,
+				BED47F8B2A96470B0092E31B /* data.json in Resources */,
+				BED47F612A9646510092E31B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F672A9646510092E31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F712A9646510092E31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED47F552A96464F0092E31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED47F5F2A96464F0092E31B /* ContentView.swift in Sources */,
+				BED47F892A9646C60092E31B /* CardData.swift in Sources */,
+				BED47F872A9646BB0092E31B /* Card.swift in Sources */,
+				BED47F5D2A96464F0092E31B /* Pan_CredCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F652A9646510092E31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED47F6E2A9646510092E31B /* Pan_CredCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED47F6F2A9646510092E31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED47F7A2A9646510092E31B /* Pan_CredCardUITestsLaunchTests.swift in Sources */,
+				BED47F782A9646510092E31B /* Pan_CredCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED47F6B2A9646510092E31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED47F582A96464F0092E31B /* Pan CredCard */;
+			targetProxy = BED47F6A2A9646510092E31B /* PBXContainerItemProxy */;
+		};
+		BED47F752A9646510092E31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED47F582A96464F0092E31B /* Pan CredCard */;
+			targetProxy = BED47F742A9646510092E31B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BED47F7B2A9646510092E31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BED47F7C2A9646510092E31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED47F7E2A9646510092E31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pan CredCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED47F7F2A9646510092E31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pan CredCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BED47F812A9646510092E31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pan CredCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pan CredCard";
+			};
+			name = Debug;
+		};
+		BED47F822A9646510092E31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pan CredCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pan CredCard";
+			};
+			name = Release;
+		};
+		BED47F842A9646510092E31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pan CredCard";
+			};
+			name = Debug;
+		};
+		BED47F852A9646510092E31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Pan-CredCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pan CredCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED47F542A96464F0092E31B /* Build configuration list for PBXProject "Pan CredCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED47F7B2A9646510092E31B /* Debug */,
+				BED47F7C2A9646510092E31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED47F7D2A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED47F7E2A9646510092E31B /* Debug */,
+				BED47F7F2A9646510092E31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED47F802A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED47F812A9646510092E31B /* Debug */,
+				BED47F822A9646510092E31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED47F832A9646510092E31B /* Build configuration list for PBXNativeTarget "Pan CredCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED47F842A9646510092E31B /* Debug */,
+				BED47F852A9646510092E31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED47F512A96464F0092E31B /* Project object */;
+}
