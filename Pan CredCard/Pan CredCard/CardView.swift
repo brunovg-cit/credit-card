@@ -35,6 +35,8 @@ struct CardView: View {
                                 EmptyView()
                             }
                         }
+                .accessibilityLabel(card.imageAccessibilityLabel)
+                .accessibilityHint("Double-tap to view card image")
             VStack(alignment: .center, spacing: 10) {
                 Text("\(cardName)").fontWeight(.bold)
                 Text("\(card.getSafeCardNumber())").fontWeight(.bold)
@@ -49,14 +51,17 @@ struct CardView: View {
         .addBorder(.black, width: 2, cornerRadius: cornerRadiusConstant)
         .background(RoundedRectangle(cornerRadius: cornerRadiusConstant)
             .fill(Color(isStored ? .green : .white).opacity(1)))
-        .onTapGesture {
+        .onTapGesture(count: 2) {
             cardData.downloadCardContent(card: card, withKey: secureKey)
             checkIfCardIsStored(secureKey: secureKey)
         }
+        .accessibilityHint("Double-tap to store card")
+        
         .onLongPressGesture {
             cardData.deleteCardData(withKey: secureKey)
             checkIfCardIsStored(secureKey: secureKey)
         }
+        .accessibilityHint("Long press to delete card")
     }
     
     func checkIfCardIsStored(secureKey: String) {

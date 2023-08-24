@@ -29,3 +29,29 @@ struct Card: Codable {
         return ""
     }
 }
+
+extension Card {
+    var aliasAccessibilityLabel: String {
+         return "Card alias: \(alias ?? "No alias")"
+     }
+     
+     var creditAccessibilityLabel: String {
+         return credit == true ? "Credit card" : "Not a credit card"
+     }
+     
+     var debitAccessibilityLabel: String {
+         return debit == true ? "Debit card" : "Not a debit card"
+     }
+     
+     var numberAccessibilityLabel: String {
+         return "Card number: \(getSafeCardNumber())"
+     }
+     
+     var codSecAccessibilityLabel: String {
+         return "Security code: \(codSec ?? "No security code")"
+     }
+     
+     var imageAccessibilityLabel: String {
+         return "Card image: \(image ?? "No image")"
+     }
+}
