@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Pan_CredCard
+@testable import PanCredCard
 
 class CardTests: XCTestCase {
     

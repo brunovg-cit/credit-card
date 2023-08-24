@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Pan_CredCardApp: App {
+struct PanCredCardApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
