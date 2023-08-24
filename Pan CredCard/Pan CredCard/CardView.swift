@@ -15,7 +15,7 @@ struct CardView: View {
     
     let cornerRadiusConstant: CGFloat = 8
     
-    @State var isDownloaded: Bool = false
+    @State var isStored: Bool = false
     
     var body: some View {
         let secureKey = cardName + card.lastFourDigits()
@@ -37,30 +37,30 @@ struct CardView: View {
                         }
             VStack(alignment: .center, spacing: 10) {
                 Text("\(cardName)").fontWeight(.bold)
-                Text("\(card.getSafeCardNumber() ?? "N/A")").fontWeight(.bold)
+                Text("\(card.getSafeCardNumber())").fontWeight(.bold)
             }
         }
         .onAppear {
-            checkForDownload(secureKey: secureKey)
+            checkIfCardIsStored(secureKey: secureKey)
         }
         .frame(width: UIScreen.main.bounds.size.width - 100)
         .cornerRadius(cornerRadiusConstant)
         .padding(10)
         .addBorder(.black, width: 2, cornerRadius: cornerRadiusConstant)
         .background(RoundedRectangle(cornerRadius: cornerRadiusConstant)
-            .fill(Color(isDownloaded ? .green : .white).opacity(1)))
+            .fill(Color(isStored ? .green : .white).opacity(1)))
         .onTapGesture {
             cardData.downloadCardContent(card: card, withKey: secureKey)
-            checkForDownload(secureKey: secureKey)
+            checkIfCardIsStored(secureKey: secureKey)
         }
         .onLongPressGesture {
             cardData.deleteCardData(withKey: secureKey)
-            checkForDownload(secureKey: secureKey)
+            checkIfCardIsStored(secureKey: secureKey)
         }
     }
     
-    func checkForDownload(secureKey: String) {
-        isDownloaded = (cardData.retrieveCardData(withKey: secureKey) != nil) ? true : false
+    func checkIfCardIsStored(secureKey: String) {
+        isStored = (cardData.retrieveCardData(withKey: secureKey) != nil) ? true : false
     }
 }
 

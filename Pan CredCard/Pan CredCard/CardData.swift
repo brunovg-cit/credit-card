@@ -29,12 +29,16 @@ class CardData {
     func downloadCardContent(card: Card, withKey key: String) {
         do {
             let cardData = try JSONEncoder().encode(card)
-            let cardDataString = String(data: cardData, encoding: .utf8)!
+            guard let cardDataString = String(data: cardData, encoding: .utf8),
+                  let secValueData = cardDataString.data(using: .utf8) else {
+                print("Error converting card data to string or back to data")
+                return
+            }
             
             let query: [String: Any] = [
                 kSecClass as String: kSecClassGenericPassword,
                 kSecAttrAccount as String: key,
-                kSecValueData as String: cardDataString.data(using: .utf8)!
+                kSecValueData as String: secValueData
             ]
             
             let status = SecItemAdd(query as CFDictionary, nil)

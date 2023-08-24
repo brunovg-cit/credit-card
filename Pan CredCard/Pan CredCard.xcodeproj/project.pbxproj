@@ -18,6 +18,8 @@
 		BED47F892A9646C60092E31B /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F882A9646C60092E31B /* CardData.swift */; };
 		BED47F8B2A96470B0092E31B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BED47F8A2A96470B0092E31B /* data.json */; };
 		BED47F8D2A964CEC0092E31B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F8C2A964CEC0092E31B /* CardView.swift */; };
+		BED47F912A977DBD0092E31B /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F902A977DBD0092E31B /* CardTests.swift */; };
+		BED47F932A977E800092E31B /* CardDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED47F922A977E800092E31B /* CardDataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		BED47F882A9646C60092E31B /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		BED47F8A2A96470B0092E31B /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		BED47F8C2A964CEC0092E31B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BED47F902A977DBD0092E31B /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		BED47F922A977E800092E31B /* CardDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				BED47F6D2A9646510092E31B /* Pan_CredCardTests.swift */,
+				BED47F902A977DBD0092E31B /* CardTests.swift */,
+				BED47F922A977E800092E31B /* CardDataTests.swift */,
 			);
 			path = "Pan CredCardTests";
 			sourceTree = "<group>";
@@ -282,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED47F932A977E800092E31B /* CardDataTests.swift in Sources */,
 				BED47F6E2A9646510092E31B /* Pan_CredCardTests.swift in Sources */,
+				BED47F912A977DBD0092E31B /* CardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

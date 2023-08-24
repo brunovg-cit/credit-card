@@ -15,7 +15,7 @@ struct Card: Codable {
     let codSec: String?
     let image: String?
     
-    func getSafeCardNumber() -> String? {
+    func getSafeCardNumber() -> String {
         let maskedPortion = String(repeating: "**** ", count: 3)
         let safeCardNumber = maskedPortion + lastFourDigits()
         
